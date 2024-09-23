@@ -18,11 +18,27 @@
     font-family: Work Sans, Arial, Helvetica, sans-serif;
 }
 
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100svh;
+    background-color: var(--light-pink);
+}
+
+.wrapper {
+    max-width: 22rem;
+    background-color: white;
+    padding: 1rem;
+}
+
 h1 {
     font-weight: 700;
 }
 
 h2 {
+    font-size: 1.25rem;
     font-weight: 600;
 }
 
