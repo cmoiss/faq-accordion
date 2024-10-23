@@ -108,9 +108,18 @@ hr {
   color: hsl(228, 45%, 44%);
 }
 
-/* Media Queries */
+/* Laptop and up */
 @media only screen and (min-width: 62rem) {
   .background-image {
     background-image: url('/assets/images/backgrounds/background-pattern-desktop.svg');
   }
+
+  .wrapper {
+    max-width: 36rem;
+  }
+
+  .question-title-container {
+    gap: 2rem;
+  }
+
 }
