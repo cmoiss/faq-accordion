@@ -1,4 +1,5 @@
 /* Remind: Add Background */
+/* Add: shadow */
 
 @import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
 
@@ -27,11 +28,23 @@
 body {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  /* justify-content: center; */
   align-items: center;
   min-height: 100svh;
   background-color: var(--light-pink);
   gap: 1.25rem;
+}
+
+.background-image {
+  color: red;
+  min-height: 30svh;
+  width: 100%;
+  background-color: red;
+}
+
+.container {
+  position: absolute;
+  top: 20vh;
 }
 
 header {
@@ -42,6 +55,7 @@ header {
 }
 
 .wrapper {
+  /* position: absolute; */
   max-width: 22rem;
   background-color: white;
   padding: 1.4rem;
