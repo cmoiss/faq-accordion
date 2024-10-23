@@ -36,10 +36,9 @@ body {
 }
 
 .background-image {
-  color: red;
+  background-image: url("../images/backgrounds/background-pattern-mobile.svg");
   min-height: 30svh;
   width: 100%;
-  background-color: red;
 }
 
 .container {
