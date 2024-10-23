@@ -1,5 +1,8 @@
-/* Remind: Add Background */
-/* Add: shadow */
+/* 
+Add: 
+  - shadow 
+  - border-radius 
+*/
 
 @import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
 
@@ -105,4 +108,11 @@ hr {
 
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+/* Media Queries */
+@media only screen and (min-width: 62rem) {
+  .background-image {
+    background-image: url("/assets/images/backgrounds/background-pattern-desktop.svg");
+  }
 }
