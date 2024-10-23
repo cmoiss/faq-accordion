@@ -33,7 +33,7 @@ body {
 }
 
 .background-image {
-  background-image: url("../images/backgrounds/background-pattern-mobile.svg");
+  background-image: url('/assets/images/backgrounds/background-pattern-mobile.svg');
   min-height: 30svh;
   width: 100%;
 }
@@ -111,6 +111,6 @@ hr {
 /* Media Queries */
 @media only screen and (min-width: 62rem) {
   .background-image {
-    background-image: url("/assets/images/backgrounds/background-pattern-desktop.svg");
+    background-image: url('/assets/images/backgrounds/background-pattern-desktop.svg');
   }
 }
