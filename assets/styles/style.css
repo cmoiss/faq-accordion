@@ -30,17 +30,17 @@ body {
   min-height: 100svh;
   background-color: var(--light-pink);
   gap: 1.25rem;
-}
 
-.background-image {
-  background-image: url('/assets/images/backgrounds/background-pattern-mobile.svg');
-  min-height: 30svh;
-  width: 100%;
+  /* background */
+  background-image: url(../images/backgrounds/background-pattern-mobile.svg);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: contain;
 }
 
 .container {
   position: absolute;
-  top: 20svh;
+  top: 10rem;
   display: flex;
   flex-direction: column;
   gap: 0.9375rem;
@@ -111,10 +111,6 @@ hr {
 
 /* Laptop and up */
 @media only screen and (min-width: 62rem) {
-  .background-image {
-    background-image: url('/assets/images/backgrounds/background-pattern-desktop.svg');
-  }
-
   .wrapper {
     max-width: 36rem;
   }
