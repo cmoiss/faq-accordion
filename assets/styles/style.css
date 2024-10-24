@@ -33,9 +33,9 @@ body {
 
   /* background */
   background-image: url(../images/backgrounds/background-pattern-mobile.svg);
-  background-repeat: no-repeat;
-  background-position: top center;
-  background-size: contain;
+  background-repeat: repeat-x;
+  background-position: top;
+  background-size: auto 30svh;
 }
 
 .container {
@@ -111,6 +111,10 @@ hr {
 
 /* Laptop and up */
 @media only screen and (min-width: 62rem) {
+  body {
+    background-image: url('../images/backgrounds/background-pattern-desktop.svg');
+  }
+
   .wrapper {
     max-width: 36rem;
   }
